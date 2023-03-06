@@ -1,0 +1,66 @@
+:root {
+	--primary-light: #fefefe;
+	--primary-dark: #1f2937;
+}
+html,
+body {
+	background-color: #81d8d0 !important;
+}
+.container {
+	min-height: 100vh;
+}
+.imageContainer {
+	min-height: 69vh;
+	background-image: url("../img/forrest.png");
+	background-size: cover;
+	border-radius: 0.5rem 0 0 0.5rem;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.imageContainer__header {
+	margin-top: 5rem;
+	color: var(--primary-light);
+}
+.signUpContainer {
+	min-height: 69vh;
+	background-color: lightgrey;
+	border-radius: 0 0.5rem 0.5rem 0;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.signUpContainer__header,
+.signUpContainer__form,
+.signUpContainer__account {
+	height: 23vh;
+}
+.signup--white {
+	background-color: white;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.form__header {
+	font-style: italic;
+}
+.account__button {
+	height: 3rem;
+	width: 10rem;
+	border: 0;
+	border-radius: 0.5rem;
+	background-color: #596d48;
+	color: white;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.account__loginText {
+	color: black;
+}
+.account__loginLink {
+	color: #596d48;
+	text-decoration: none;
+}
+.footer {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	color: var(--primary-light);
+	text-shadow: rgba(0, 0, 0, 0.24) 0px 10px 8px;
+}
+.footer__link {
+	color: var(--primary-light);
+}
